@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Free HD Videos | Adults Only</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: black;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background-image: url('https://static-ca-cdn.eporner.com/gallery/RC/yr/3rfoaXuyrRC/28194-a-little-blurry-but-damn_880x660.jpg');
+      background-size: cover;
+      background-position: center;
+      transition: all 1s ease;
+    }
+
+    #content {
+      background: rgba(0, 0, 0, 0.7);
+      padding: 40px;
+      text-align: center;
+      border-radius: 10px;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 15px 30px;
+      font-size: 20px;
+      background-color: red;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    #awareness {
+      display: none;
+      text-align: center;
+      padding: 50px;
+    }
+
+    #awareness a {
+      color: #0077cc;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    #awareness a:hover {
+      text-decoration: underline;
+    }
+
+    #quote {
+      display: none;
+      text-align: center;
+      padding: 30px;
+      font-style: italic;
+      font-size: 18px;
+    }
+
+    footer {
+      display: none;
+      text-align: center;
+      font-size: 14px;
+      padding: 20px;
+      color: gray;
+    }
+
+    h1, p {
+      margin: 10px 0;
+    }
+  </style>
+</head>
+<body>
+  <!-- Initial fake adult content -->
+  <div id="content">
+    <h1>Welcome to Free HD Adult Videos</h1>
+    <p>Click Enter to access exclusive 18+ content</p>
+    <button onclick="revealMessage()">Enter</button>
+  </div>
+
+  <!-- Awareness message -->
+  <div id="awareness">
+    <h1>Pornography is not what it seems.</h1>
+    <p>Behind every click is an industry that thrives on addiction, objectification, and secrecy.</p>
+    <p>If you're struggling, you're not alone. Help is available.</p>
+    <p><a href="https://FightTheNewDrug.org" target="_blank">Visit FightTheNewDrug.org →</a></p>
+  </div>
+
+  <!-- Quote about lust -->
+  <div id="quote">
+    <p>"Lust promises pleasure but delivers emptiness. It enslaves the heart, blinds the soul, and slowly kills the human within."</p>
+  </div>
+
+  <!-- Footer credits -->
+  <footer>
+    <p>All rights reserved to <strong>THE REAL HUMAN</strong> ©</p>
+  </footer>
+
+  <!-- JS to reveal awareness -->
+  <script>
+    function revealMessage() {
+      document.body.style.backgroundImage = 'none';
+      document.getElementById("content").style.display = "none";
+      document.getElementById("awareness").style.display = "block";
+      document.getElementById("quote").style.display = "block";
+      document.querySelector("footer").style.display = "block";
+      document.body.style.backgroundColor = "#fff";
+      document.body.style.color = "#111";
+    }
+  </script>
+</body>
+</html>
+
